@@ -17,8 +17,6 @@ namespace StacksAndQueues
             //my_Stack.Push(56);
             //my_Stack.Display();
             //my_Stack.IsEmpty();
-    
-
 
 
 
@@ -27,8 +25,14 @@ namespace StacksAndQueues
             queue.Enqueue(30);
             queue.Enqueue(70);
             queue.Display();
+            queue.Dequeue();
+            queue.Display();
         }
     }
 }
-    
-  
+
+
+
+
+
+
